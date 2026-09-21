@@ -1,0 +1,33 @@
+# Dataset (download with download_dataset.py)
+dataset/
+data/
+with_mask/
+without_mask/
+*.zip
+
+# Model weights and YOLO checkpoint (generated locally)
+models/*.pth
+*.pt
+runs/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+train.ipynb
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Secrets
+kaggle.json
+.env
+.env.*
